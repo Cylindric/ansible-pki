@@ -15,9 +15,7 @@ crlnumber         = $dir/crlnumber
 crl               = $dir/crl/root.crl.pem
 crl_extensions    = crl_ext
 default_crl_days  = 730
-
 default_md        = sha256
-
 name_opt          = ca_default
 cert_opt          = ca_default
 default_days      = 375
@@ -36,7 +34,7 @@ emailAddress           = optional
 [ req ]
 prompt                 = no
 string_mask            = utf8only
-default_bits           = 2048
+default_bits           = 8192
 default_md             = sha256
 distinguished_name     = req_distinguished_name
 x509_extensions        = v3_ca

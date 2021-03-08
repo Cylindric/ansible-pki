@@ -1,3 +1,4 @@
+---
 # Some magic for the Vagrant demo.
 # Copy any external requests into the RootCA
 - name: import requests
